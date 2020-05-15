@@ -1,0 +1,131 @@
+body{
+    background-color: #C4C4C4;
+}
+
+/* CSS Bootstrap navegador */
+.navbar-toggler{
+    background-color: white;
+}
+
+.navbar-nav{
+    background-color: #004AAD;
+}
+
+.imagem{
+    width: 50px;
+    height: 50px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(1, 34, 78);
+}
+
+hr{
+    background-color: white;
+}
+
+p{
+    margin-top: 15px;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #004AAD;
+}
+
+.container{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.img-fluid{
+    width: 868px;
+    height: 400px;
+}
+
+.Conteúdo{
+    background-color: #FFFFFF;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    position: relative;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 0px 0px 2px #004AAD;
+    margin-top: 20px;
+}
+.legislacao {
+    position: relative;
+    padding: 4.2rem 0;
+    background: rgb(0, 52, 119) url(../../Imagens/IconeCorona.png) right center no-repeat;
+    /* $amarelo */
+    background-size: auto 100%; }
+    .legislacao:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #1D79C5;
+      opacity: .5; }
+    @media (max-width: 1199px) {
+      .legislacao {
+        background-image: url(../img/assinatura-mobile.png); } }
+    @media (max-width: 991px) {
+      .legislacao {
+        padding: 2.4rem 0; } }
+    @media (max-width: 900px) {
+      .legislacao {
+        padding: 2rem 0; } }
+    @media (max-width: 767px) {
+      .legislacao {
+        background-image: none;
+        padding: 2.4rem 0; } }
+    .legislacao p {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+      /* $verde */
+      font-weight: bold;
+      font-size: 1.6rem; }
+      @media (max-width: 1199px) {
+        .legislacao p span {
+          display: block;
+          margin-bottom: 1.6rem; } }
+      @media (max-width: 900px) {
+        .legislacao p {
+          font-size: 1.4rem; }
+          .legislacao p span {
+            display: block;
+            margin-bottom: 1.3rem; } }
+      @media (max-width: 767px) {
+        .legislacao p {
+          text-align: center;
+          font-size: 1.3rem; } }
+      .legislacao p .btn {
+        display: inline-block;
+        margin-left: 2.2rem;
+        border: 1px solid #fff;
+        border-radius: 2rem;
+        padding: 0.5rem 4.4rem;
+        background-color: transparent;
+        /* $verde */
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #fff; }
+        @media (max-width: 1199px) {
+          .legislacao p .btn {
+            margin: 0; } }
+        @media (max-width: 900px) {
+          .legislacao p .btn {
+            font-size: 1.2rem;
+            font-weight: 700; } }
+  
